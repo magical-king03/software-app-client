@@ -1,4 +1,9 @@
+import { useEffect } from "react"
+
 const About = () => {
+    useEffect(() => {
+        document.title = "About";
+    }, []);
     return (
         <div>
             <div className="about-bg md:h-[350px] h-[250px]">

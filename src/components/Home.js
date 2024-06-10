@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom"
+import { useEffect } from "react";
 const Home = () => {
+    useEffect(() => {
+        document.title = "Nexus Info";
+    }, []);
     return (
         <div>
             <div className="bg md:h-[650px] h-[450px]">

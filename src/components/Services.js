@@ -1,6 +1,10 @@
 import React from 'react';
+import { useEffect } from 'react';
 
 const Services = () => {
+    useEffect(() => {
+        document.title = "Services";
+    }, []);
     return (
         <div>
             <div className="bg h-[250px] relative">
