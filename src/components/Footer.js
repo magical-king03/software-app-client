@@ -11,7 +11,7 @@ const Footer = () => {
     const [zipCode, setZipCode] = useState('');
     const userDetailHandler = async () => {
         try {
-            let result = await fetch('http://localhost:8000/user-save', {
+            let result = await fetch('https://software-app-client-ltr4.vercel.app/user-save', {
                 method: 'post',
                 body: JSON.stringify({ first_name: firstName, last_name: lastName, email, city, state, zipCode }),
                 headers: {

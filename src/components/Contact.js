@@ -7,7 +7,7 @@ const Contact = () => {
     const [message, setMessage] = useState('');
     const feedDetailHandler = async () => {
         try {
-            let result = await fetch('http://localhost:8000/feed-save', {
+            let result = await fetch('https://software-app-client-ltr4.vercel.app/feed-save', {
                 method: 'post',
                 body: JSON.stringify({ name, email, subject, message }),
                 headers: {
