@@ -81,14 +81,14 @@ const Services = () => {
                     <p className='text-black text-[30px] font-bold text-center'>DISCOVER OUR PROJECTS</p>
                     <p className='mx-auto lg:w-[700px] md:w-[550px] text-center '>Take a closer look at our previous projects, showcasing the successful collaborations and impactful solutions we’ve delivered for our valued clients.</p>
                 </div>
-                <div className='md:flex items-center justify-evenly my-[30px]'>
+                <div className='lg:flex items-center justify-evenly my-[30px]'>
                     <div className='flex items-center justify-center'>
                         <div className="flip-card w-[300px] h-[450px] mt-[20px] md:mt-0">
                             <div className="flip-card-inner relative w-full h-full">
                                 <div className="flip-card-front absolute w-full h-full">
                                     <img
                                         src="https://nexusinfo.in/wp-content/uploads/2024/01/New-Website-Blue-Mockup-Instagram-Laptop-2.png"
-                                        alt="Business Consultant"
+                                        alt="Business website"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
