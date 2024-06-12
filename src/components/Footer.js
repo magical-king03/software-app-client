@@ -33,16 +33,16 @@ const Footer = () => {
 
                 <div className='flex items-ceneter justify-center'>
                     <div className="flex space-x-6 mt-[48px]">
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-700">
+                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-700">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-700">
+                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-700">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
-                        <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-700">
+                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-700">
                             <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                         </a>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-700">
+                        <a href="/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-700">
                             <FontAwesomeIcon icon={faTwitter} size="2x" />
                         </a>
                     </div>
